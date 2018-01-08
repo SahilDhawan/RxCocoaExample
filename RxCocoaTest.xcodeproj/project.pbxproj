@@ -50,6 +50,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5F2B00EF20035EA50092BE29 /* BasicTableView */ = {
+			isa = PBXGroup;
+			children = (
+				5F2B00EB20034C8E0092BE29 /* TableViewController.swift */,
+				5F2B00ED200351E80092BE29 /* TableViewModel.swift */,
+			);
+			path = BasicTableView;
+			sourceTree = "<group>";
+		};
+		5F2B00FD200360AF0092BE29 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5FEAF231200349FD00936A8F /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		5FEAF221200349FD00936A8F = {
 			isa = PBXGroup;
 			children = (
@@ -72,9 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				5FEAF22D200349FD00936A8F /* AppDelegate.swift */,
-				5FEAF231200349FD00936A8F /* Main.storyboard */,
-				5F2B00ED200351E80092BE29 /* TableViewModel.swift */,
-				5F2B00EB20034C8E0092BE29 /* TableViewController.swift */,
+				5F2B00FD200360AF0092BE29 /* Main */,
+				5F2B00EF20035EA50092BE29 /* BasicTableView */,
 				5FEAF234200349FD00936A8F /* Assets.xcassets */,
 				5FEAF236200349FD00936A8F /* LaunchScreen.storyboard */,
 				5FEAF239200349FD00936A8F /* Info.plist */,

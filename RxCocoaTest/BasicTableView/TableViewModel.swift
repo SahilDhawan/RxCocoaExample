@@ -21,8 +21,8 @@ class TableViewModel {
     init(addDriver : Driver<Void>) {
         self.dataSource = tableDataSource.asObservable()
         
-        addDriver.drive(onNext: { [unowned self] _  in
+        addDriver.drive(onNext: { _  in
             self.tableDataSource.value.append("item")
-        })
+        }).disposed(by: disposeBag)
     }
 }
