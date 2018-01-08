@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5F2B00EC20034C8E0092BE29 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2B00EB20034C8E0092BE29 /* TableViewController.swift */; };
+		5F2B00EE200351E80092BE29 /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2B00ED200351E80092BE29 /* TableViewModel.swift */; };
 		5FEAF22E200349FD00936A8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEAF22D200349FD00936A8F /* AppDelegate.swift */; };
 		5FEAF233200349FD00936A8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FEAF231200349FD00936A8F /* Main.storyboard */; };
 		5FEAF235200349FD00936A8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FEAF234200349FD00936A8F /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		5F2B00EB20034C8E0092BE29 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		5F2B00ED200351E80092BE29 /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
 		5FEAF22A200349FD00936A8F /* RxCocoaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxCocoaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FEAF22D200349FD00936A8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FEAF232200349FD00936A8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			children = (
 				5FEAF22D200349FD00936A8F /* AppDelegate.swift */,
 				5FEAF231200349FD00936A8F /* Main.storyboard */,
+				5F2B00ED200351E80092BE29 /* TableViewModel.swift */,
 				5F2B00EB20034C8E0092BE29 /* TableViewController.swift */,
 				5FEAF234200349FD00936A8F /* Assets.xcassets */,
 				5FEAF236200349FD00936A8F /* LaunchScreen.storyboard */,
@@ -219,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F2B00EE200351E80092BE29 /* TableViewModel.swift in Sources */,
 				5FEAF22E200349FD00936A8F /* AppDelegate.swift in Sources */,
 				5F2B00EC20034C8E0092BE29 /* TableViewController.swift in Sources */,
 			);
